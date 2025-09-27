@@ -51,13 +51,13 @@ const About = () => {
       name: "Shruti Mutakekar",
       role: "Member",
       bio: "Specialist in idea describing",
-      image: "👨‍🔧",
+      image: "👩‍💼",
     },
     {
       name: "Shreyas Thorat",
       role: "Member",
       bio: "expert in website design and implmentation.",
-      image: "👩‍💻",
+      image: "👨‍💻",
     },
   ];
 
