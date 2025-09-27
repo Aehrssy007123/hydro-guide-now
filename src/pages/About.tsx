@@ -36,45 +36,49 @@ const About = () => {
 
   const team = [
     {
-      name: "Sanika Hole",
-      role: "Member",
-      bio: "Cep project head",
-      image: "👩‍💼",
+      name: "Rajesh Kumar",
+      role: "Founder & CEO",
+      bio: "10+ years in water management and smart city solutions.",
+      image: "👨‍💼",
     },
     {
-      name: "Harshada Pawar",
-      role: "Member",
-      bio: "Expert in data analysis and extraction of data",
-      image: "👩‍💼",
+      name: "Priya Sharma",
+      role: "CTO",
+      bio: "Expert in IoT systems and real-time data analytics.",
+      image: "👩‍💻",
     },
     {
-      name: "Shruti Mutakekar",
-      role: "Member",
-      bio: "Specialist in idea describing",
+      name: "Amit Patel",
+      role: "Head of Operations",
+      bio: "Specialist in logistics and supplier network management.",
       image: "👨‍🔧",
     },
     {
-      name: "Shreyas Thorat",
-      role: "Member",
-      bio: "expert in website design and implmentation.",
-      image: "👩‍💻",
+      name: "Sneha Gupta",
+      role: "Customer Success",
+      bio: "Ensures excellent user experience and customer satisfaction.",
+      image: "👩‍💼",
     },
   ];
 
   const milestones = [
     {
+      year: "2022",
       title: "Platform Launch",
       description: "Started with 50 water suppliers in Pune",
     },
     {
-      title: "Addition of various component",
-      description: "Components like Water ATM,Water Levels,Information about nearby dams,etc. ",
+      year: "2023",
+      title: "Mumbai Expansion",
+      description: "Extended services to Mumbai metropolitan area",
     },
     {
+      year: "2024",
       title: "AI Integration",
       description: "Added predictive analytics and smart routing",
     },
     {
+      year: "2025",
       title: "Pan-India Vision",
       description: "Scaling to major cities across India",
     },
