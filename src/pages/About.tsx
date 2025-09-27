@@ -63,22 +63,18 @@ const About = () => {
 
   const milestones = [
     {
-      year: "2022",
       title: "Platform Launch",
       description: "Started with 50 water suppliers in Pune",
     },
     {
-      year: "2023",
-      title: "Mumbai Expansion",
-      description: "Extended services to Mumbai metropolitan area",
+      title: "Addition of various component",
+      description: "Components like Water ATM,Water Levels,Information about nearby dams,etc. ",
     },
     {
-      year: "2024",
       title: "AI Integration",
       description: "Added predictive analytics and smart routing",
     },
     {
-      year: "2025",
       title: "Pan-India Vision",
       description: "Scaling to major cities across India",
     },
