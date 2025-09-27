@@ -4,6 +4,8 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import MapSection from "@/components/MapSection";
 import WaterSourceCard from "@/components/WaterSourceCard";
+import ChartsSection from "@/components/ChartsSection";
+import Chatbot from "@/components/Chatbot";
 
 // Mock data for demonstration
 const mockWaterSources = [
@@ -106,6 +108,7 @@ const Index = () => {
       <Header />
       <Hero />
       <MapSection />
+      <ChartsSection />
       
       {/* Water Sources Section */}
       <section id="water-sources" className="py-16 px-4">
@@ -206,6 +209,8 @@ const Index = () => {
           </div>
         </div>
       </footer>
+
+      <Chatbot />
     </div>
   );
 };
