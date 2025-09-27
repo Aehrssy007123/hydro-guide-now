@@ -8,7 +8,6 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const MapSection = () => {
   const [selectedFilter, setSelectedFilter] = useState("all");
   const [searchQuery, setSearchQuery] = useState("");
-
   return (
     <section className="py-16 px-4 bg-secondary/30">
       <div className="container mx-auto">
