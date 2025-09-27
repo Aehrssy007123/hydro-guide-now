@@ -4,11 +4,13 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { GoogleMap, LoadScript , Marker } from "@react-google-maps/api" 
 
 const MapSection = () => {
   const [selectedFilter, setSelectedFilter] = useState("all");
   const [searchQuery, setSearchQuery] = useState("");
-
+  const containerStyle = {width: "100%", height: "500px",};
+  const center = {lat: 18.5204,lng 73.8567,};
   return (
     <section className="py-16 px-4 bg-secondary/30">
       <div className="container mx-auto">
